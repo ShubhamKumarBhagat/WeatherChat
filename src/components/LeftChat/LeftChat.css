@@ -1,0 +1,23 @@
+.messagebox-left {
+  display: flex;
+  margin: 1rem;
+}
+.triangle-left {
+  height: 0.8rem;
+  width: 1.2rem;
+  background-color: rgba(255, 251, 0, 0.567);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  transform: translateX(1px);
+}
+
+.box-left {
+  height: fit-content;
+  max-width: 60%;
+  padding: 1rem;
+  background-color: rgba(255, 251, 0, 0.567);
+  text-align: left;
+  font-family: montserrat;
+  font-size: 0.9rem;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  font-weight: 600;
+}

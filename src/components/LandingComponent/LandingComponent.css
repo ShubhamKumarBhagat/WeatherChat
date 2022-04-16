@@ -1,0 +1,37 @@
+.header {
+  color: #c0043c;
+  font-family: ubuntu;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+  font-size: 5rem;
+  text-shadow: 2px 2px black;
+  margin-top: 30vh;
+  padding: 0 2vw;
+}
+.chat-button {
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  padding: 0.8rem 2rem;
+  letter-spacing: 2px;
+  background-color: rgba(255, 230, 0, 0.7);
+  font-family: montserrat;
+  border: none;
+  width: fit-content;
+  font-weight: 600;
+  margin-top: 15vh;
+}
+.chat-button:hover {
+  transform: translateY(-25%) scale(1.5);
+}
+.chat-button:active {
+  transform: scale(1.2);
+}
+
+@media only screen and (min-height: 120vw) {
+  .chat-button:hover {
+    transform: none;
+  }
+  .chat-button:active {
+    transform: scale(1.2);
+  }
+}

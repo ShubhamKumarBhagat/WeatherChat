@@ -1,0 +1,13 @@
+.background{
+    width:100vw;
+    height:100vh;
+    background-size:100vw 100vh;
+    background-image: url('../../Weather_app_bgh.png');
+    background-size:100vw 100vh;
+  }
+
+  @media only screen and (min-height:120vw) {
+    .background{
+      background-image: url('../../Weather_app_bgv.png'); 
+    }
+  }

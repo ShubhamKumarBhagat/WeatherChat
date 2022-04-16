@@ -1,0 +1,76 @@
+.chat-interface {
+  background: rgba(146, 146, 146, 0.518);
+  width: 95vw;
+  height: fit-content;
+  border-radius: 1rem 1rem 0rem 0rem;
+  margin: 2.5vh 2.5vw;
+  position: relative;
+  
+}
+.chats-list{
+  height:92.5vh;
+  overflow-y:scroll ;
+  padding-bottom: 2rem;
+}
+form {
+  position: fixed;
+  bottom: 2.5vh;
+  right: 2.5vw;
+  width: 95vw;
+  background-color: rgb(182, 97, 0);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  width: 90%;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.submit-button {
+  width: fit-content;
+  height: 2rem;
+  border: none;
+  padding: 0 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.submit-icon {
+  width: 25px;
+}
+.submit-button:hover {
+  cursor: pointer;
+  
+}
+.submit-button:active {
+  background-color: rgb(182, 97, 0);
+}
+.animate-left{
+animation: left-animation 50ms linear;
+}
+.animate-right{
+animation:right-animation 50ms linear;
+
+}
+
+@keyframes left-animation {
+  0%{
+    transform: translateX(-1%);
+  }
+  50%{
+    transform: translateX(-0.5%);
+  }
+}
+
+@keyframes right-animation {
+  0%{
+    transform: translateX(1%);
+  }
+  50%{
+    transform: translateX(0.5%);
+  }
+}
