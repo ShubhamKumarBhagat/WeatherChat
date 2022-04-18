@@ -1,6 +1,7 @@
 .messagebox-left {
   display: flex;
   margin: 1rem;
+  justify-content: flex-start;
 }
 .triangle-left {
   height: 0.8rem;
