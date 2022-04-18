@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/WeatherChat/static/css/main.1e27ab7d.css",
-    "main.js": "/WeatherChat/static/js/main.7f48b76f.js",
+    "main.js": "/WeatherChat/static/js/main.bcb485ff.js",
     "static/js/787.73a8b4ea.chunk.js": "/WeatherChat/static/js/787.73a8b4ea.chunk.js",
     "static/media/Weather_app_bgv.png": "/WeatherChat/static/media/Weather_app_bgv.4f0827cd88cbfc94de3c.png",
     "static/media/Weather_app_bgh.png": "/WeatherChat/static/media/Weather_app_bgh.45494b79cc37248aaa06.png",
     "index.html": "/WeatherChat/index.html",
     "main.1e27ab7d.css.map": "/WeatherChat/static/css/main.1e27ab7d.css.map",
-    "main.7f48b76f.js.map": "/WeatherChat/static/js/main.7f48b76f.js.map",
+    "main.bcb485ff.js.map": "/WeatherChat/static/js/main.bcb485ff.js.map",
     "787.73a8b4ea.chunk.js.map": "/WeatherChat/static/js/787.73a8b4ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e27ab7d.css",
-    "static/js/main.7f48b76f.js"
+    "static/js/main.bcb485ff.js"
   ]
 }
