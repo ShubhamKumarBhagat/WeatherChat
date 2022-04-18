@@ -6,21 +6,21 @@ import { useState } from "react";
 
 const ChatInterface = () => {
   const url =
-    "http://api.weatherstack.com/current?access_key=369854f968e85650d5dbd443698dffeb";
+    "https://api.weatherbit.io/v2.0/current?key=581c21bacaea402d963cdfc7241d3d48";
   function fetchweather(location) {
-    fetch(url + "&query=" + location)
+    fetch(url + "&city=" + location)
       .then((res) => res.json())
       .then((data) => {
         if (data.error) throw new Error("err");
         setchats((prev) => {
           return [
             ...prev.slice(0, prev.length - 1),
-            "Weather is " +
-              data.current.weather_descriptions[0] +
+            "Weather description: " +
+              data.data[0].weather.description +
               ". The temperature is " +
-              data.current.temperature +
+              data.data[0].temp +
               " degree Celcius and it feels like " +
-              data.current.feelslike +
+              data.data[0].app_temp +
               " degrees.",
           ];
         });
